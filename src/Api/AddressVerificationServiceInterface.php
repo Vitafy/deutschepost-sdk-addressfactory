@@ -39,7 +39,7 @@ interface AddressVerificationServiceInterface
      * @throws AuthenticationException
      * @throws ServiceException
      */
-    public function closeSession(string $sessionId): void;
+    public function closeSession(string $sessionId);
 
     /**
      * Perform an address search based on flat address parameters.

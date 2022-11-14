@@ -96,7 +96,7 @@ class PackstationType
     /**
      * @return OrtType|null
      */
-    public function getOrt(): ?OrtType
+    public function getOrt()//: ?OrtType
     {
         return $this->Ort;
     }
@@ -115,7 +115,7 @@ class PackstationType
     /**
      * @return OrtszusatzType|null
      */
-    public function getOrtszusatz(): ?OrtszusatzType
+    public function getOrtszusatz()//: ?OrtszusatzType
     {
         return $this->Ortszusatz;
     }

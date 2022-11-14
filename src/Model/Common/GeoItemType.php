@@ -28,7 +28,7 @@ class GeoItemType
     /**
      * @return KoordWgs84Type|null
      */
-    public function getKoordWgs84(): ?KoordWgs84Type
+    public function getKoordWgs84()// : ?KoordWgs84Type
     {
         return $this->KoordWgs84;
     }
@@ -47,7 +47,7 @@ class GeoItemType
     /**
      * @return UtmWgs84Type|null
      */
-    public function getUtmWgs84(): ?UtmWgs84Type
+    public function getUtmWgs84()// : ?UtmWgs84Type
     {
         return $this->UtmWgs84;
     }
@@ -66,7 +66,7 @@ class GeoItemType
     /**
      * @return GkbDhdnType|null
      */
-    public function getGkbDhdn(): ?GkbDhdnType
+    public function getGkbDhdn()// : ?GkbDhdnType
     {
         return $this->GkbDhdn;
     }

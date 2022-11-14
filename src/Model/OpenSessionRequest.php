@@ -39,7 +39,7 @@ class OpenSessionRequest
      * @param string|null $clientId
      * @return OpenSessionRequest
      */
-    public function setMandantId(?string $clientId): self
+    public function setMandantId($clientId): self
     {
         $this->mandantId = $clientId;
         return $this;

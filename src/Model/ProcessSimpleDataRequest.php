@@ -45,7 +45,7 @@ class ProcessSimpleDataRequest
      * @param string|null $sessionId
      * @return ProcessSimpleDataRequest
      */
-    public function setSessionId(?string $sessionId): self
+    public function setSessionId($sessionId): self
     {
         $this->sessionId = $sessionId;
         return $this;
@@ -55,7 +55,7 @@ class ProcessSimpleDataRequest
      * @param string|null $configName
      * @return ProcessSimpleDataRequest
      */
-    public function setConfigName(?string $configName): self
+    public function setConfigName($configName): self
     {
         $this->configName = $configName;
         return $this;
@@ -65,7 +65,7 @@ class ProcessSimpleDataRequest
      * @param string|null $clientId
      * @return ProcessSimpleDataRequest
      */
-    public function setMandantId(?string $clientId): self
+    public function setMandantId($clientId): self
     {
         $this->mandantId = $clientId;
         return $this;

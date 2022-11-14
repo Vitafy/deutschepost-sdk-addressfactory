@@ -78,7 +78,7 @@ class HausanschriftType
     /**
      * @return StrasseType|null
      */
-    public function getStrasse(): ?StrasseType
+    public function getStrasse()//: ?StrasseType
     {
         return $this->Strasse;
     }
@@ -154,7 +154,7 @@ class HausanschriftType
     /**
      * @return OrtType|null
      */
-    public function getOrt(): ?OrtType
+    public function getOrt()//: ?OrtType
     {
         return $this->Ort;
     }
@@ -173,7 +173,7 @@ class HausanschriftType
     /**
      * @return OrtszusatzType|null
      */
-    public function getOrtszusatz(): ?OrtszusatzType
+    public function getOrtszusatz()//: ?OrtszusatzType
     {
         return $this->Ortszusatz;
     }
@@ -306,7 +306,7 @@ class HausanschriftType
     /**
      * @return LeitdatenType|null
      */
-    public function getLeitdaten(): ?LeitdatenType
+    public function getLeitdaten()//: ?LeitdatenType
     {
         return $this->Leitdaten;
     }

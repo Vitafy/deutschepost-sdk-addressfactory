@@ -28,7 +28,7 @@ use PostDirekt\Sdk\AddressfactoryDirect\Service\AddressVerificationService\PostO
 
 class AddressItemMapper
 {
-    public function mapParcelStation(AdrItemType $adrItem): ?ParcelStationInterface
+    public function mapParcelStation(AdrItemType $adrItem) // : ParcelStationInterface
     {
         if ($adrItem->getPackstation() === null) {
             return null;
@@ -50,7 +50,7 @@ class AddressItemMapper
         );
     }
 
-    public function mapPostOffice(AdrItemType $adrItem): ?PostOfficeInterface
+    public function mapPostOffice(AdrItemType $adrItem) // : PostOfficeInterface
     {
         if ($adrItem->getPostfiliale() === null) {
             return null;
@@ -72,7 +72,7 @@ class AddressItemMapper
         );
     }
 
-    public function mapBulkReceiver(AdrItemType $adrItem): ?BulkReceiver
+    public function mapBulkReceiver(AdrItemType $adrItem) //: BulkReceiver
     {
         if ($adrItem->getGE() === null) {
             return null;
@@ -94,7 +94,7 @@ class AddressItemMapper
         );
     }
 
-    public function mapPostalBox(AdrItemType $adrItem): ?PostalBox
+    public function mapPostalBox(AdrItemType $adrItem) //: ?PostalBox
     {
         if ($adrItem->getPostfach() === null) {
             return null;
@@ -112,7 +112,7 @@ class AddressItemMapper
         );
     }
 
-    public function mapAddress(AdrItemType $adrItem, ?NameItemType $name): ?Address
+    public function mapAddress(AdrItemType $adrItem, $name) // : ?Address
     {
         if ($adrItem->getHausanschrift() === null) {
             return null;

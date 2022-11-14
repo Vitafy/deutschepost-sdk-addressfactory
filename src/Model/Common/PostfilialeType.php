@@ -96,7 +96,7 @@ class PostfilialeType
     /**
      * @return OrtType|null
      */
-    public function getOrt(): ?OrtType
+    public function getOrt()//: ?OrtType
     {
         return $this->Ort;
     }
@@ -115,7 +115,7 @@ class PostfilialeType
     /**
      * @return OrtszusatzType|null
      */
-    public function getOrtszusatz(): ?OrtszusatzType
+    public function getOrtszusatz()//: ?OrtszusatzType
     {
         return $this->Ortszusatz;
     }
@@ -210,7 +210,7 @@ class PostfilialeType
     /**
      * @return LeitdatenType|null
      */
-    public function getLeitdaten(): ?LeitdatenType
+    public function getLeitdaten()//: ?LeitdatenType
     {
         return $this->Leitdaten;
     }

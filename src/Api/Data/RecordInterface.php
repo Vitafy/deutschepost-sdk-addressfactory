@@ -15,19 +15,19 @@ interface RecordInterface
 {
     public function getRecordId(): int;
 
-    public function getPerson(): ?PersonInterface;
+    public function getPerson();
 
-    public function getAddress(): ?AddressInterface;
+    public function getAddress();
 
-    public function getParcelStation(): ?ParcelStationInterface;
+    public function getParcelStation();
 
-    public function getGeoData(): ?GeoDataInterface;
+    public function getGeoData();
 
-    public function getGeoDataUtm(): ?GeoDataUtmInterface;
+    public function getGeoDataUtm();
 
-    public function getGeoDataGk(): ?GeoDataGkInterface;
+    public function getGeoDataGk();
 
-    public function getRoutingData(): ?RoutingDataInterface;
+    public function getRoutingData();
 
     /**
      * @return PhoneNumberInterface[]
@@ -39,9 +39,9 @@ interface RecordInterface
      */
     public function getStatusCodes(): array;
 
-    public function getPostOffice(): ?PostOfficeInterface;
+    public function getPostOffice();
 
-    public function getPostalBox(): ?PostalBoxInterface;
+    public function getPostalBox();
 
-    public function getBulkReceiver(): ?BulkReceiverInterface;
+    public function getBulkReceiver();
 }

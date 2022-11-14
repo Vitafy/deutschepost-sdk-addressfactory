@@ -140,32 +140,32 @@ class Record implements RecordInterface
         return $this->recordId;
     }
 
-    public function getPerson(): ?PersonInterface
+    public function getPerson()//: ?PersonInterface
     {
         return $this->person;
     }
 
-    public function getAddress(): ?AddressInterface
+    public function getAddress()//: ?AddressInterface
     {
         return $this->address;
     }
 
-    public function getGeoData(): ?GeoDataInterface
+    public function getGeoData()//: ?GeoDataInterface
     {
         return $this->geoData;
     }
 
-    public function getGeoDataUtm(): ?GeoDataUtmInterface
+    public function getGeoDataUtm()//: ?GeoDataUtmInterface
     {
         return $this->geoDataUtm;
     }
 
-    public function getGeoDataGk(): ?GeoDataGkInterface
+    public function getGeoDataGk()//: ?GeoDataGkInterface
     {
         return $this->geoDataGk;
     }
 
-    public function getRoutingData(): ?RoutingDataInterface
+    public function getRoutingData()//: ?RoutingDataInterface
     {
         return $this->routingData;
     }
@@ -180,22 +180,22 @@ class Record implements RecordInterface
         return $this->statusCodes;
     }
 
-    public function getParcelStation(): ?ParcelStationInterface
+    public function getParcelStation()//: ?ParcelStationInterface
     {
         return $this->parcelStation;
     }
 
-    public function getPostOffice(): ?PostOfficeInterface
+    public function getPostOffice()//: ?PostOfficeInterface
     {
         return $this->postOffice;
     }
 
-    public function getPostalBox(): ?PostalBoxInterface
+    public function getPostalBox()//: ?PostalBoxInterface
     {
         return $this->postalBox;
     }
 
-    public function getBulkReceiver(): ?BulkReceiverInterface
+    public function getBulkReceiver()//: ?BulkReceiverInterface
     {
         return $this->bulkReceiver;
     }

@@ -38,7 +38,7 @@ class AdrItemType
     /**
      * @return HausanschriftType|null
      */
-    public function getHausanschrift(): ?HausanschriftType
+    public function getHausanschrift() //: ?HausanschriftType
     {
         return $this->Hausanschrift;
     }
@@ -57,7 +57,7 @@ class AdrItemType
     /**
      * @return PostfachType|null
      */
-    public function getPostfach(): ?PostfachType
+    public function getPostfach() // : ?PostfachType
     {
         return $this->Postfach;
     }
@@ -76,7 +76,7 @@ class AdrItemType
     /**
      * @return PackstationType|null
      */
-    public function getPackstation(): ?PackstationType
+    public function getPackstation() // : ?PackstationType
     {
         return $this->Packstation;
     }
@@ -95,7 +95,7 @@ class AdrItemType
     /**
      * @return PostfilialeType|null
      */
-    public function getPostfiliale(): ?PostfilialeType
+    public function getPostfiliale() // : ?PostfilialeType
     {
         return $this->Postfiliale;
     }
@@ -114,7 +114,7 @@ class AdrItemType
     /**
      * @return GEType|null
      */
-    public function getGE(): ?GEType
+    public function getGE() // : ?GEType
     {
         return $this->GE;
     }

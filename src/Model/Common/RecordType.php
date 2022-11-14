@@ -76,7 +76,7 @@ class RecordType
     /**
      * @return int|null
      */
-    public function getSequenceId(): ?int
+    public function getSequenceId()//: ?int
     {
         return $this->sequenceId;
     }
@@ -95,7 +95,7 @@ class RecordType
     /**
      * @return int|null
      */
-    public function getFileId(): ?int
+    public function getFileId()//: ?int
     {
         return $this->fileId;
     }
@@ -133,7 +133,7 @@ class RecordType
     /**
      * @return NameItemType|null
      */
-    public function getNameItem(): ?NameItemType
+    public function getNameItem()//: ?NameItemType
     {
         return $this->NameItem;
     }
@@ -152,7 +152,7 @@ class RecordType
     /**
      * @return AdrItemType|null
      */
-    public function getAdrItem(): ?AdrItemType
+    public function getAdrItem()//: ?AdrItemType
     {
         return $this->AdrItem;
     }
@@ -171,7 +171,7 @@ class RecordType
     /**
      * @return RufnrItemType|null
      */
-    public function getRufnrItem(): ?RufnrItemType
+    public function getRufnrItem()//: ?RufnrItemType
     {
         return $this->RufnrItem;
     }
@@ -190,7 +190,7 @@ class RecordType
     /**
      * @return GeoItemType|null
      */
-    public function getGeoItem(): ?GeoItemType
+    public function getGeoItem()//: ?GeoItemType
     {
         return $this->GeoItem;
     }
@@ -209,7 +209,7 @@ class RecordType
     /**
      * @return ExtFieldItemType|null
      */
-    public function getExtFieldItem(): ?ExtFieldItemType
+    public function getExtFieldItem()//: ?ExtFieldItemType
     {
         return $this->ExtFieldItem;
     }

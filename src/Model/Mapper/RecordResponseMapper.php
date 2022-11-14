@@ -150,7 +150,8 @@ class RecordResponseMapper
 
     private function extractRoutingData(
         AdrItemType $adrItem
-    ): ?RoutingData {
+    ) // : ?RoutingData
+    {
         $routingData = $routing = null;
         if ($adrItem->getPackstation() !== null) {
             $routing = $adrItem->getPackstation()->getLeitdaten();

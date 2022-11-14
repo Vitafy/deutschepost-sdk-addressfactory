@@ -64,7 +64,7 @@ class AddressVerificationService implements AddressVerificationServiceInterface
         }
     }
 
-    public function closeSession(string $sessionId): void
+    public function closeSession(string $sessionId)//: void
     {
         $request = new CloseSessionRequest();
         $request->setSessionId($sessionId);
