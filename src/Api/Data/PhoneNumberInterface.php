@@ -13,11 +13,11 @@ namespace PostDirekt\Sdk\AddressfactoryDirect\Api\Data;
  */
 interface PhoneNumberInterface
 {
-    public const TYPE_UNKNOWN = 'unknown';
-    public const TYPE_PRIVATE = 'private';
-    public const TYPE_BUSINESS = 'business';
-    public const TYPE_MOBILE = 'mobile';
-    public const TYPE_FAX = 'fax';
+    const TYPE_UNKNOWN = 'unknown';
+    const TYPE_PRIVATE = 'private';
+    const TYPE_BUSINESS = 'business';
+    const TYPE_MOBILE = 'mobile';
+    const TYPE_FAX = 'fax';
 
     public function getType(): string;
 
