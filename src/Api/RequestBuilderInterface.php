@@ -13,24 +13,24 @@ namespace PostDirekt\Sdk\AddressfactoryDirect\Api;
  */
 interface RequestBuilderInterface
 {
-    public const FILE_TYPE_MERGE = 'Merge';
-    public const FILE_TYPE_PURGE = 'Purge';
+    const FILE_TYPE_MERGE = 'Merge';
+    const FILE_TYPE_PURGE = 'Purge';
 
-    public const INQUIRY_REASON_ABK = 'ABK';
-    public const INQUIRY_REASON_ABV = 'ABV';
-    public const INQUIRY_REASON_ABB = 'ABB';
-    public const INQUIRY_REASON_ABI = 'ABI';
-    public const INQUIRY_REASON_ABM = 'ABM';
+    const INQUIRY_REASON_ABK = 'ABK';
+    const INQUIRY_REASON_ABV = 'ABV';
+    const INQUIRY_REASON_ABB = 'ABB';
+    const INQUIRY_REASON_ABI = 'ABI';
+    const INQUIRY_REASON_ABM = 'ABM';
 
-    public const GENDER_MALE = 'M';
-    public const GENDER_FEMALE = 'W';
-    public const GENDER_NOT_SPECIFIED = 'U';
+    const GENDER_MALE = 'M';
+    const GENDER_FEMALE = 'W';
+    const GENDER_NOT_SPECIFIED = 'U';
 
-    public const PHONE_TYPE_UNKNOWN = 'Unbekannt';
-    public const PHONE_TYPE_PRIVATE = 'Privat';
-    public const PHONE_TYPE_BUSINESS = 'Geschaeftlich';
-    public const PHONE_TYPE_MOBILE = 'Mobil';
-    public const PHONE_TYPE_FAX = 'Fax';
+    const PHONE_TYPE_UNKNOWN = 'Unbekannt';
+    const PHONE_TYPE_PRIVATE = 'Privat';
+    const PHONE_TYPE_BUSINESS = 'Geschaeftlich';
+    const PHONE_TYPE_MOBILE = 'Mobil';
+    const PHONE_TYPE_FAX = 'Fax';
 
     /**
      * Set record metadata (optional).
